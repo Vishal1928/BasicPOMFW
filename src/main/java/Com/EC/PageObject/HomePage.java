@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import Com.EC.BaseClass.BaseClass;
 import Com.EC.PageObject.SearchProductResultPage;
-import actionDriver.Action;
+import Com.EC.actionDriver.Action;
 
 public class HomePage extends BaseClass{
 

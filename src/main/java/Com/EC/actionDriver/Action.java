@@ -1,7 +1,7 @@
 /**
  * 
  */
-package actionDriver;
+package Com.EC.actionDriver;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -26,7 +26,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import actionInterface.ActionInterface;
+import Com.EC.actionInterface.*;
 import Com.EC.BaseClass.BaseClass;
 
 public class Action extends BaseClass implements ActionInterface {

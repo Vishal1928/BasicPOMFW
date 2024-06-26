@@ -1,4 +1,4 @@
-package actionInterface;
+package Com.EC.actionInterface;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

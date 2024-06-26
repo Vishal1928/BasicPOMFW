@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Com.EC.TestCase.HomePageTestCase">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="verifyCompanyImage"/>
+          <include name="searchProductName"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- Com.EC.TestCase.HomePageTestCase -->
+      <class name="Com.EC.TestCase.SearchProductResultPageTestCase">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="enterNumberQuantity"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- Com.EC.TestCase.SearchProductResultPageTestCase -->
+      <class name="Com.EC.TestCase.IndexPageTestCase">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="clickOnLoginLink"/>
+          <include name="launchApp"/>
+          <include name="verifyALLHyperlinkOnIndexPage"/>
+        </methods>
+      </class> <!-- Com.EC.TestCase.IndexPageTestCase -->
+      <class name="Com.EC.TestCase.CartPageTestCase">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="checkOutPage"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- Com.EC.TestCase.CartPageTestCase -->
+      <class name="Com.EC.TestCase.LoginPageTestCase">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="loginFunctionality"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- Com.EC.TestCase.LoginPageTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
